@@ -1,0 +1,833 @@
+[
+    {
+        "name": "BD1",
+        "models": "https://raw.githubusercontent.com/ravendano014/scarav2/main/",
+        "parts": [
+            {
+              "mesh_id": "ukaq",
+              "mesh_name": "Arduino UNO case p1.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaa",
+              "mesh_name": "Arduino UNO case p2.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.011764705882352941,
+                  "g": 0.043137254901960784,
+                  "b": 0.9882352941176471
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaab",
+              "mesh_name": "Arm 1 Cover.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaac",
+              "mesh_name": "Arm 1.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaae",
+              "mesh_name": "Arm 2 Cover.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaf",
+              "mesh_name": "Arm 2.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaah",
+              "mesh_name": "Base cover.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaai",
+              "mesh_name": "Base.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaj",
+              "mesh_name": "GT2 Pulley - 110 teeth - J1.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaak",
+              "mesh_name": "GT2 Pulley - 22 - 80 teeth.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.011764705882352941,
+                  "g": 0.043137254901960784,
+                  "b": 0.9882352941176471
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaal",
+              "mesh_name": "GT2 Pulley - 23 - 80 teeth.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaam",
+              "mesh_name": "GT2 Pulley - 90 teeth - J3.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaan",
+              "mesh_name": "GT2 Pulley - 92 teeth - J2.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaao",
+              "mesh_name": "GT2 Pulley - Parametric.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaap",
+              "mesh_name": "Gripper Cover.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaq",
+              "mesh_name": "Gripper End.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaas",
+              "mesh_name": "Gripper Hand Left.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaau",
+              "mesh_name": "Gripper Hand Right.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaw",
+              "mesh_name": "Gripper Mechanism Slider.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaax",
+              "mesh_name": "Gripper Servo Holder.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaay",
+              "mesh_name": "Gripper Wide end.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaz",
+              "mesh_name": "Gripper link 1.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaz",
+              "mesh_name": "Gripper link 2.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaaz",
+              "mesh_name": "Gripper to J3 connector.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aaba",
+              "mesh_name": "J1 coupler.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.011764705882352941,
+                  "g": 0.043137254901960784,
+                  "b": 0.9882352941176471
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabb",
+              "mesh_name": "J2 Coupler.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabc",
+              "mesh_name": "J3 Coupler.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 0.9607843137254902,
+                  "g": 0.9294117647058824,
+                  "b": 0
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabd",
+              "mesh_name": "Smooth Rod Clamp.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabe",
+              "mesh_name": "Top cover.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabd",
+              "mesh_name": "Wide gripper end - Left side.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabe",
+              "mesh_name": "Z-axis Bottom Plate.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabf",
+              "mesh_name": "Z-axis Mount Platform.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            },
+            {
+              "mesh_id": "aabh",
+              "mesh_name": "Z-axis Top Plate.STL",
+              "position": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "rotation": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "color": [
+                {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                }
+              ]
+            }
+          ]
+    }
+  ]
