@@ -3,6 +3,10 @@
         "name": "scarav2",
         "models": "https://raw.githubusercontent.com/ravendano014/scarav2/main/",
         "parts": [
+    {
+        "name": "scarav2",
+        "models": "https://raw.githubusercontent.com/ravendano014/scarav2/main/",
+        "parts": [
   {
     "mesh_id": "ukaq",
     "mesh_name": "Arduino UNO case p1.STL",
@@ -583,16 +587,16 @@
     "mesh_name": "Gripper to J3 connector.STL",
     "position": [
       {
-        "x": 290,
-        "y": 35,
-        "z": 170
+        "x": 265,
+        "y": 64,
+        "z": 127
       }
     ],
     "rotation": [
       {
-        "x": 0,
-        "y": 90,
-        "z": -20
+        "x": 90,
+        "y": 0,
+        "z": 0
       }
     ],
     "color": [
@@ -730,18 +734,18 @@
   },
   {
     "mesh_id": "aabd",
-    "mesh_name": "Wide gripper end - Left side.STL",
+    "mesh_name": "Z-axis Bottom Plate.STL",
     "position": [
       {
-        "x": 112.78,
-        "y": 14,
-        "z": -48.92
+        "x": 90,
+        "y": -11,
+        "z": 2
       }
     ],
     "rotation": [
       {
-        "x": 90,
-        "y": -45.47999999999771,
+        "x": -90,
+        "y": 0,
         "z": 0
       }
     ],
@@ -829,5 +833,8 @@
     ]
   }
 ]
+    }
+  ]
+
     }
   ]
