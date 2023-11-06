@@ -3,10 +3,6 @@
         "name": "scarav2",
         "models": "https://raw.githubusercontent.com/ravendano014/scarav2/main/",
         "parts": [
-    {
-        "name": "scarav2",
-        "models": "https://raw.githubusercontent.com/ravendano014/scarav2/main/",
-        "parts": [
   {
     "mesh_id": "ukaq",
     "mesh_name": "Arduino UNO case p1.STL",
@@ -831,10 +827,32 @@
         "b": 1
       }
     ]
+  },
+  {
+    "mesh_id": "aabi",
+    "mesh_name": "nut_job_20180909-67-1pjk6pi.STL",
+    "position": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    ],
+    "rotation": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    ],
+    "color": [
+      {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    ]
   }
 ]
-    }
-  ]
-
     }
   ]
