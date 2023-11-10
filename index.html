@@ -1611,6 +1611,54 @@
         }
         // console.log(scene);
 
+      window.addEventListener('dblclick', function() {        
+        var pickResult = scene.pick(scene.pointerX, scene.pointerY);        
+
+        var meshName = pickResult.pickedMesh.name;
+
+        if (meshName.includes('picker_')) {
+            return false;
+        }
+
+        var mat = new BABYLON.StandardMaterial('mat1', this.scene);
+        mat.diffuseColor = new BABYLON.Color3(1, 0, 0);
+
+        var sphere = BABYLON.MeshBuilder.CreateSphere(
+        'picker_sphere',
+        { diameter: 2, segments: 16 },
+        scene
+        );
+        sphere.material = mat;
+        sphere.position.y = 3;
+
+        var cube = BABYLON.MeshBuilder.CreateBox(
+        'picker_cube',
+        { size: 0.5, height: 3 },
+        scene
+        );
+        cube.position = new BABYLON.Vector3(0, 1.5, 0);
+        cube.material = mat;
+
+        var mesh = BABYLON.Mesh.MergeMeshes([sphere, cube]);
+
+        mesh.position = pickResult.pickedPoint;
+				
+        // !!!!!!!!!!!!!!!!!!!!!
+        // ROTATION MUST BE HERE
+        // !!!!!!!!!!!!!!!!!!!!!
+                        
+        var axis1 = pickResult.getNormal();							        		
+        var axis2 = BABYLON.Vector3.Up();
+        var axis3 = BABYLON.Vector3.Up();
+        var start = new BABYLON.Vector3(Math.PI / 2, Math.PI / 2, 0);	//camera.position			
+
+        BABYLON.Vector3.CrossToRef(start, axis1, axis2);
+        BABYLON.Vector3.CrossToRef(axis2, axis1, axis3);
+        var tmpVec = BABYLON.Vector3.RotationFromAxis(axis3.negate(), axis1, axis2);
+        var quat = BABYLON.Quaternion.RotationYawPitchRoll(tmpVec.y, tmpVec.x, tmpVec.z);
+        mesh.rotationQuaternion = quat;
+    });
+
         engine.runRenderLoop(function () {
             scene.render();
         });
