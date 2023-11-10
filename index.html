@@ -1598,17 +1598,9 @@
                 meshes[0].name = part.mesh_name;
                 meshes[0].position = new BABYLON.Vector3(part.position[0].x, part.position[0].y, part.position[0].z);
                 meshes[0].rotation = new BABYLON.Vector3(BABYLON.Tools.ToRadians(part.rotation[0].x), BABYLON.Tools.ToRadians(part.rotation[0].y), BABYLON.Tools.ToRadians(part.rotation[0].z));
-
-		var mat = new BABYLON.StandardMaterial("mat1", scene);
-		mat.alpha = 1;
-		mat.diffuseColor = new BABYLON.Color3(0.5, 0.5, 1.0);
-		mat.emissiveColor = new BABYLON.Color3.Black();
-		mat.backFaceCulling = false
-		var tex= new BABYLON.Texture("https://upload.wikimedia.org/wikipedia/commons/5/54/Arrowhead.jpg", scene);
-		mat.diffuseTexture = tex;
 		    
-                // meshes[0].material = new BABYLON.StandardMaterial("material", scene);
-                // meshes[0].material.diffuseColor = new BABYLON.Color3.FromHexString(rgbToHex(part.color[0].r*255, part.color[0].g*255, part.color[0].b*255));
+                meshes[0].material = new BABYLON.StandardMaterial("material", scene);
+                meshes[0].material.diffuseColor = new BABYLON.Color3.FromHexString(rgbToHex(part.color[0].r*255, part.color[0].g*255, part.color[0].b*255));
  
 		meshes[0].material = mat;
 		    
@@ -1652,11 +1644,7 @@
         var mesh = BABYLON.Mesh.MergeMeshes([sphere, cube]);
 
         mesh.position = pickResult.pickedPoint;
-				
-        // !!!!!!!!!!!!!!!!!!!!!
-        // ROTATION MUST BE HERE
-        // !!!!!!!!!!!!!!!!!!!!!
-                        
+				             
         var axis1 = pickResult.getNormal();							        		
         var axis2 = BABYLON.Vector3.Up();
         var axis3 = BABYLON.Vector3.Up();
